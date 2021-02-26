@@ -1,0 +1,399 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.logo {
+	    margin-right: 0px;
+	}
+	.btn_ham span {
+	  width:25px;
+	  height:3px;
+	  margin: 2px 0px;
+	}
+	.btn_ham.active span:nth-child(1) {
+	  top: -5px;
+	}
+	.menu ul li a{
+		padding: 0;
+		text-align: center;
+		border-bottom: 0;
+		margin: 5px 0 !important;
+	}
+	.menu ul li a:hover{
+		border-bottom: 0;
+		color: #2582eb !important;
+	}
+	/*Slider start*/
+	.custom_crao_indi li {
+    width: 10px;
+    height: 10px;
+}
+	.slider_content {
+    padding: 50px 0 80px;
+	}
+	.slider_content h1 {
+	    font-size: 37px;
+	}
+	.slider_content p {
+	    margin: 20px 0 35px;
+    	font-size: 16px;
+	}
+	.custom_button {
+    	padding: 12px 15px;	
+    }
+    /*Slider end*/
+    /*About us start */
+	.about {
+	    padding: 50px 0;
+	}
+	.about_text{
+		text-align: center;
+	}
+	.about_text h1 {
+	    font-size: 35px;
+	}
+	.about_text h2 {
+    	margin-bottom: 25px;
+	}
+	.about_text p {
+	    margin-bottom: 35px;
+	    font-size: 16px;
+	}
+	/*About us end 	*/
+	/*Counters start*/
+	.counters {
+	    padding: 50px 0;
+	}
+	.common_styl, .common_styl p {
+		text-align: center;
+		font-size: 15px;
+	    padding: 0;
+	}
+	.common_styl p{
+		text-align: left;
+	}
+	.common_styl h2 {
+		margin-right: 10px;
+	    font-size: 50px;	
+	}
+	/*Counters end*/
+	/*Coaching work start*/
+	.work {
+	    padding: 60px 0;
+	}
+	.common_heading h1 {
+	    font-size: 32px;
+	}
+	.about_coaching_img {
+		width: 295px;
+	    margin: 0 0 30px 0;
+	}
+	.work_icon {
+	    font-size: 22px;
+	}
+	.work_text{
+		text-align: left;
+	}
+	.work_text h2 {
+    	margin-bottom: 10px;
+	}
+	.work_text p {
+		margin-bottom: 10px;
+		font-size: 16px;
+	    line-height: 22px;
+	}
+	/*Coaching work end */
+	/*Coaching work start*/
+	.common_heading h1 {
+	    font-size: 28px;
+	}
+	.common_heading p {
+	    margin-bottom: 20px;
+	}
+	.about_coaching_img {
+	    width: 295px;
+	    margin: 0 0 30px 0;
+	}
+	.work_text h2 {
+	    margin-top: 5px;
+	    font-size: 17px;
+	}
+	.work_text p {
+	    margin-bottom: 10px;
+	    font-size: 14px;
+	}
+	/*Coaching work end*/
+	/*Footer start*/
+	footer {
+	    padding: 50px 0;
+	}
+	.address h1 {
+	    margin-bottom: 15px;
+	    font-size: 25px;
+	}
+	.address p{
+		margin-bottom: 5px;
+	}
+	.social ul li a {
+	    margin-right: 10px !important;
+	}
+	.footer_headline h2 {
+	    margin: 20px 0 10px;
+	}
+	.pages ul {
+	    margin-bottom: 5px;
+	}
+	.f {
+	    margin-top: 47px;
+	}
+	/*Footer end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*Slider start*/
+	.menu ul li a{
+		padding: 0;
+		text-align: center;
+		border-bottom: 0;
+		margin: 5px 0 !important;
+	}
+	.menu ul li a:hover{
+		border-bottom: 0;
+		color: #2582eb !important;
+	}
+	.custom_crao_indi li {
+    width: 13px;
+    height: 13px;
+}
+	.slider_content {
+    padding: 80px 0 120px;
+	}
+	.slider_content h1 {
+	    font-size: 60px;
+	}
+	.slider_content p {
+	    margin: 30px 0 50px;
+    	font-size: 17px;
+	}
+	/*Slider end*/
+	/*About us start */
+	.about {
+	    padding: 80px 0;
+	}
+	.about_text{
+		text-align: center;
+	}
+	.about_text h1 {
+	    font-size: 40px;
+	}
+	.about_text h2 {
+    	margin-bottom: 25px;
+	}
+	.about_text p {
+	    margin-bottom: 35px;
+	    font-size: 16px;
+	}
+	/*About us end 	*/
+	/*Counters start*/
+	.counters {
+	    padding: 50px 0;
+	}
+	.common_styl, .common_styl p {
+		text-align: center;
+		font-size: 18px;
+	    padding: 0;
+	}
+	.common_styl p{
+		text-align: left;
+	}
+	.common_styl h2 {
+		/*text-align: center;*/
+	    margin: 0 30px;
+	    font-size: 60px;	
+	}
+	/*Counters end*/
+	/*Coaching work start*/
+	.work {
+	    padding: 60px 0;
+	}
+	.about_coaching_img {
+		width: 520px;
+	    margin: 0 0 30px 0;
+	}
+	.work_icon {
+	    font-size: 25px;
+	}
+	.work_text{
+		text-align: left;
+	}
+	.work_text h2 {
+    	margin-bottom: 10px;
+	}
+	.work_text p {
+		margin-bottom: 15px;
+		font-size: 16px;
+	    line-height: 25px;
+	}
+	/*Coaching work end */
+	/*Footer start*/
+	.address h1 {
+	    margin-bottom: 20px;
+	    font-size: 30px;
+	    font-weight: 700;
+	    color: #fff;
+	    text-transform: uppercase;
+	}
+	.address p{
+		margin-bottom: 5px;
+	}
+	.footer_headline h2 {
+	    margin: 20px 0 10px;
+	}
+	.pages ul {
+	    margin-bottom: 5px;
+	}
+	.f {
+	    margin-top: 47px;
+	}
+	/*Footer end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.menu ul li a{
+		text-align: center;
+		border-bottom: 0;
+		margin: 5px 0 !important;
+	}
+	.menu ul li a:hover{
+		border-bottom: 0;
+		color: #2582eb !important;
+	}
+
+	.custom_search {
+		padding: 0;
+	}
+	/*Slider start*/
+	.slider_content {
+	    padding: 120px 0 180px;
+	}
+	.slider_content h1 {
+	    font-size: 70px;
+	}
+	.slider_content p {
+	    margin: 30px 0 50px;
+	}
+	/*Slider end*/
+	/*About us start*/
+	.about_text h1 {
+	    font-size: 40px;
+	    }
+	.about_text h2 {
+	    margin-bottom: 30px;
+	}
+	.about_text p {
+	    margin-bottom: 30px;
+	    font-size: 16px;
+	}
+	/*About us end*/
+	/*Counters start*/
+	.common_styl, .common_styl p {
+		text-align: center;
+		font-size: 14px;
+	    padding: 0;
+	    text-transform: capitalize; 
+	}
+	.common_styl h2 {
+		text-align: center;
+	    margin: 0 30px;
+	    font-size: 60px;	
+	}
+	/*Counters end*/
+	/*Coaching work start*/
+	.work {
+	    padding: 60px 0;
+	}
+	.about_coaching_img {
+	    margin: 0 0 30px 65px;
+	}
+	.work_icon {
+	    font-size: 25px;
+	}
+	.work_text h2 {
+    	margin-bottom: 10px;
+	}
+	.work_text p {
+		margin-bottom: 15px;
+		font-size: 16px;
+	    line-height: 25px;
+	}
+	/*Coaching work end */
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*Header start*/
+	.logo {
+	    padding: 10px 0;
+	}
+	.menu ul li a {
+	    margin: 6px 8px !important;
+	}
+	/*Header end*/
+	/*Slider start*/
+	.custom_h1 {
+	    font-size: 60px;
+	}
+	.slider_content {
+	    padding: 100px 0 150px;
+	}
+	/*Slider end*/
+	/*About us start*/
+	.about_img{
+	    height: 100%;
+	    width: 370px;
+	}
+	.about_text h1 {
+	    font-size: 44px;
+	}
+	/*About us end*/
+	/*Counters start*/
+	.common_styl, .common_styl p{
+	    display: inline-block;
+	    font-size: 14px;
+	    color: #fff;
+	    font-weight: 500;
+	    text-transform: uppercase;
+	}
+	.common_styl h2{
+	    margin-right: 10px;
+    	font-size: 50px;
+    }
+	/*Counters end*/
+	/*Coaching work start*/
+	.about_coaching_img {
+	    width: 520px;
+	}
+	.work_icon {
+		margin-left: 40px;
+	    font-size: 25px;
+	}
+	.work_text p {
+		margin-bottom: 15px;
+		font-size: 16px;
+	    line-height: 25px;
+	}
+	/*Coaching work end */
+}
+/*Extra large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (min-width: 1399.98px) {
+	/*About us start*/
+	.about_img{
+	    height: 100%;
+	    width: 370px;
+	}
+	/*About us end*/
+}
+/*Extra Extra large devices (Extra Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (min-width: 2499.98px) {
+}

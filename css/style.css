@@ -1,0 +1,302 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+
+/* common start */
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #292f3b;
+}
+
+/* common end */
+/*Top_bar start*/
+.top_contact{
+	margin-top: 15px;
+}
+.top_contact ul li i{
+	margin-right: 5px;
+}
+.top_social{
+	margin-top: 10px;
+}
+.top_social ul{
+	float: right;
+}
+/*Top_bar end*/
+/*Header start*/
+header{
+	background-color: solid transparent;
+}
+.bg{
+	background-color: rgba(0,0,0,.3);
+}
+.logo{
+	padding: 20px 0;
+}
+.btn_ham {}
+.btn_ham span {
+  position:relative;
+  top:0px;
+  display:block;
+  background:#eee;
+  width:40px;
+  height:5px;
+  margin:5px 0px;
+  cursor:pointer;
+  transition:transform 300ms linear 0ms,top 250ms ease-in-out 350ms;
+}
+.btn_ham.active span:nth-child(1) {
+  top: 0px;
+  transform:rotate(45deg);
+  transition:top 300ms linear 0ms,transform 250ms ease 400ms;
+}
+.btn_ham.active span:nth-child(2) {
+  opacity:0;
+  transition:all 50ms ease 350ms;
+}
+.btn_ham.active span:nth-child(3) {
+  top: -20px;
+  transform:rotate(-45deg);
+  transition:top 300ms linear 0ms,transform 250ms ease 400ms;
+}
+.logo a, .menu ul li a, .custom_search{
+	margin-top: 10px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white !important;
+}
+.menu ul li a{
+	border-bottom: 3px solid transparent;
+	margin: 6px 15px !important;
+}
+.menu ul li a:hover{
+	border-bottom: 3px solid #2582eb;
+}
+.custom_search_drop{
+	top: 155%;
+    left: -200px;
+    min-width: 110px;
+    padding-left: 10px;
+	background-color: #3f444f;
+}
+.custom_user_drop li a:hover{
+	color: #f05c5c !important;
+	background-color: transparent !important;
+}
+.search_button{
+	color: #fff;
+}
+.search_button:hover{
+	color: #2582eb;
+}
+
+
+/*Header end*/
+/*slider start*/
+.slider{
+	background-image: url(../images/pensive-confident-young-middle-eastern-programmer-with-beard-standing-with-crossed-arms-office-with-computer-language-code-blackboard.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover; 
+}
+.custom_crao_indi li{
+	width: 15px;
+    border-radius: 50%;
+    height: 15px;
+}
+.slider_content{
+	color: #fff;
+	padding: 160px 0 300px;
+}
+.slider_content h1{
+	font-size: 80px;
+	font-weight: 400;
+}
+.slider_content p{
+	margin: 40px 0 60px;
+	font-size: 18px;
+}
+.custom_button{
+	font-size: 13px;
+	font-weight: 700;
+	color: #fff;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	background-color: #2582eb;
+	border-radius: 30px;
+}
+.custom_button:focus{
+	box-shadow: none;
+}
+.custom_button:hover{
+	color: #292f3b;
+	background-color: #fff;
+}
+/*slider end*/
+/*About us start*/
+.about{
+	padding: 120px 0;
+}
+.about_text{}
+.about_text h1{
+	font-size: 48px;
+	font-weight: 400;
+}
+.about_text h2{
+	margin-bottom: 40px;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	color: #b2b6bb;
+}
+.about_text h3{
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.about_text p{
+	margin-bottom: 50px;
+	font-size: 18px;
+	color: #59606a;
+	line-height: 30px;
+}
+.about_text button{
+	text-transform: uppercase;
+	background-color: #2582eb;
+	-webkit-box-shadow: 0px 0px 24px 3px rgba(15,46,81,0.2);
+	-moz-box-shadow: 0px 0px 24px 3px rgba(15,46,81,0.2);
+	box-shadow: 0px 0px 24px 3px rgba(15,46,81,0.2); 
+}
+figure, .about_img, .about_coaching_img{
+	-webkit-box-shadow: 0px 0px 24px 3px rgba(15,46,81,0.2);
+	-moz-box-shadow: 0px 0px 24px 3px rgba(15,46,81,0.2);
+	box-shadow: 0px 0px 24px 3px rgba(15,46,81,0.2);
+}
+figure {
+	width: 470px;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+/*About us end*/
+/*Counters start*/
+.counters{
+	padding: 80px 0;
+	background-color: #292f3b;
+}
+.common_styl, .common_styl p{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.common_styl h2{
+	margin-right: 20px;
+	display: inline-block;
+	font-size: 60px;
+    font-weight: 700;
+    color: #2582eb;
+}
+/*Counters end*/
+/*Coaching work start*/
+.work{
+	padding: 80px 0;
+}
+.common_heading h1{
+	font-size: 36px;
+	font-weight: 400;
+}
+.common_heading p{
+	margin-bottom: 30px;
+	font-weight: 700;
+	color: #2582eb;
+}
+.about_coaching_img{
+	width: 570px;
+}
+.work_icon{
+	font-size: 30px;
+	color: #2582eb;
+}
+.work_text h2{
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: normal;
+	color: #292f3b;
+}
+.work_text p{
+	margin-bottom: 20px;
+	color: #59606a;
+	line-height: 30px;
+}
+/*Coaching work end*/
+/*Footer start*/
+footer{
+	padding: 30px 0;
+	background-color: #1b202a;
+}
+.address h1{
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+.address p{
+	font-size: 14px;
+	color: #b2b6bb;
+}
+.address p i{
+	margin-right: 15px;
+}
+.social ul li a{
+	margin-right: 20px !important;
+	color: #fff;
+}
+.social ul li a:hover{
+	color: #2582eb;
+}
+.footer_headline h2{
+	margin: 20px 0 30px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+}
+.pages ul{
+	margin-bottom: 12px;
+}
+.pages ul li a{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.pages ul li a:hover{
+	color: #2582eb;
+}
+.f{
+	margin-top: 70px;
+}
+/*Footer end*/
+
+
